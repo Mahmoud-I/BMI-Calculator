@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    background-image: url("assets/css/img/Blue Minimalistic Tech Line Poster Background.jpg");
+    background-color: #e0e0e0;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-description {
+    max-width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(145deg, #14326e, #2b60c9);
+    box-shadow:  inset 0px 10px 7px #23232383,
+             inset -0px -0px 5px #a09f9fe3;
+}
+
+.text-description h1 {
+    font-size: 5rem;
+    padding: 40px;
+    margin-bottom: 0;
+
+}
+
+.text-description p {
+    font-size: 2rem;
+    padding: 40px;
+    margin-top: -80px;
+}
+
+.sub-container {
+    position: absolute;
+    background-color: white;
+    top: 0;
+    right: 5%;
+    max-width: 400px;
+    height: 430px;
+    margin-top: -15px;
+    border-radius: 5px;
+    color:  #05163a;
+    box-shadow:  0px 3px 7px #23232383,
+             -1px -1px 2px #e7e6e6;
+    
+}
+
+
+form {
+    padding: 40px;
+    padding-top: 20px;
+}
+label, input {
+    display: block;
+    margin: 5px;
+    margin-left: 0;
+}
+label {
+    margin-top: 20px;
+    font-weight: 600;
+}
+input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    outline: none;
+    font-size: 18px;
+}
+
+.result {
+    display: block;
+    margin: -25% 0 50px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #05163a;
+}
+
+.result span {
+    font-size: 1rem;
+}
+
+svg {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.error {
+    color: red;
+}
+
+button{
+    width: 80%;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: all 0.2s;
+    margin-top: 20px;
+}
+
+.calc {
+    background-image: linear-gradient(145deg, #254d9d, #2c5bba);
+    margin-top: -20px;
+}
+
+.calc:hover {
+    background-image: linear-gradient(145deg, #254d9dcb, #2c5bbac5);
+}
+
+.reset {
+    background-image: linear-gradient(145deg, #df2020, #ba2c2c);
+}
+
+.reset:hover {
+    background-image: linear-gradient(145deg, #df2020c9, #ba2c2cda);
+}
